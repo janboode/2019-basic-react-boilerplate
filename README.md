@@ -5,7 +5,7 @@ Personal Boilerplate for mid 2019
 ### Contains:
 - **webpack: ^4.39.1**
 
-   To do this and that
+   To do this and that and the other.
 
 - webpack-cli: ^3.3.6,
 - webpack-dev-server: ^3.7.2,
