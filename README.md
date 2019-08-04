@@ -3,22 +3,22 @@
 Personal Boilerplate for mid 2019
 
 ### Contains:
-- **webpack: ^4.39.1**
+##### + webpack: ^4.39.1
 
    To do this and that and the other.
 
 
-- **webpack-cli: ^3.3.6**
+##### + webpack-cli: ^3.3.6
 
    Activates command line interface for webpack.
 
 
-- **webpack-dev-server: ^3.7.2**
+##### + webpack-dev-server: ^3.7.2
 
    Runs a local webserver for development.
 
 
-- **webpack-merge: ^4.2.1**
+##### + webpack-merge: ^4.2.1
 
    Merges config files together.
 
