@@ -91,7 +91,7 @@ Personal Boilerplate for mid 2019
 
   Minifies CSS.
 
-  This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 98% flawless
+  This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 98% flawless.
 
 
 
