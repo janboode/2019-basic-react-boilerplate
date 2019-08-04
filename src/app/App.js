@@ -1,7 +1,6 @@
 import React from 'react'
 
-// const App = () => {
-export default App = () => {
+const App = () => {
     return(
         <div>
             <h1>2019 basic react boilerplate.</h1>
@@ -10,4 +9,4 @@ export default App = () => {
     )
 }
 
-// export default App
+export default App
