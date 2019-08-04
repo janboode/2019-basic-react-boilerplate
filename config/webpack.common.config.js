@@ -53,7 +53,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack 4 Starter t5b',
+            title: 'Basic React Boilerplate',
             template: './src/index.html',
             inject: true,
             minify: {
