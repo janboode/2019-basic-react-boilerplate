@@ -4,6 +4,7 @@ Personal Boilerplate for mid 2019
 
 ### Contains:
 - **webpack: ^4.39.1**
+
    To do this and that
 
 - webpack-cli: ^3.3.6,
