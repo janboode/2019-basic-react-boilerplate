@@ -1,0 +1,14 @@
+// variables
+$col-bg: rgba(223, 59, 0, 1);
+
+// reset
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// body
+body {
+    background-color: $col-bg;
+}
+
