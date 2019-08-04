@@ -1,8 +1,8 @@
-## 2019-basic-react-boilerplate
+## 2019 Basic React Boilerplate
 
 Personal Boilerplate for mid 2019
 
-####Contains
+#### Contains
 - **webpack: ^4.39.1**
 To do this and that
 
