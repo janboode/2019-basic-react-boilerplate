@@ -1,13 +1,13 @@
-// variables
+/* variables */
 $col-bg: rgba(223, 59, 0, 1);
 
-// reset
+/* reset */
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
-// body
+/* body */
 body {
     background-color: $col-bg;
 }
