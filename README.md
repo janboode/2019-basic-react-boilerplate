@@ -55,6 +55,10 @@ Run ```npm run build:prod``` to build for production
 
   Used to convert React JSX to backwards compatible code.
 
+- **@babel/plugin-proposal-class-properties: ^7.5.5**
+
+   Enables experimental react code (like not having to bind functions to the keyword 'this' anymore).
+
 - **cross-env: ^5.2.0**
 
   Insures that environment variable is set properly in every platform.
