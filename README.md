@@ -111,7 +111,7 @@ Run ```npm run build:prod``` to build for production
    
   Promise based HTTP client for the browser and node.js
 
-  This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 98% flawless.
+  This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 95% flawless.
 
 
 
