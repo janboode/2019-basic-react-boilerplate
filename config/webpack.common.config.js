@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
-    entry: './src/index.js',
+    entry: ['babel-polyfill', './src/index.js'],
     output: {
         filename: 'bryte.[chunkhash].js',
         path: path.resolve(__dirname, '../build')

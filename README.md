@@ -59,6 +59,10 @@ Run ```npm run build:prod``` to build for production
 
    Enables experimental react code (like not having to bind functions to the keyword 'this' anymore).
 
+- **babel-polyfill: ^6.26.0**
+
+   Enables async await logic
+
 - **cross-env: ^5.2.0**
 
   Insures that environment variable is set properly in every platform.
@@ -102,6 +106,10 @@ Run ```npm run build:prod``` to build for production
 - **optimize-css-assets-webpack-plugin: ^5.0.3**
 
   Minifies CSS.
+
+- **axios: ^0.19.0**
+   
+  Promise based HTTP client for the browser and node.js
 
   This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 98% flawless.
 
