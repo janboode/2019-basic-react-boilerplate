@@ -57,7 +57,7 @@ Run ```npm run build:prod``` to build for production
 
 - **@babel/plugin-proposal-class-properties: ^7.5.5**
 
-   Enables experimental react code (like not having to bind functions to the keyword 'this' anymore).
+   Enables experimental react code (like not having to bind functions to the keyword 'this' anymore, by using arrow functions).
 
 - **babel-polyfill: ^6.26.0**
 
