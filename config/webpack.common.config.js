@@ -8,7 +8,8 @@ module.exports = {
     entry: ['babel-polyfill', './src/index.js'],
     output: {
         filename: 'bryte.[chunkhash].js',
-        path: path.resolve(__dirname, '../build')
+        path: path.resolve(__dirname, '../build'),
+        publicPath: '/'
     },
     resolve: {
         extensions: ['.js', 'ts', '.scss', '.jsx']
@@ -53,6 +54,9 @@ module.exports = {
                 ]
             }
         ]
+    },
+    devServer: {
+        historyApiFallback: true
     },
     plugins: [
         new HtmlWebpackPlugin({

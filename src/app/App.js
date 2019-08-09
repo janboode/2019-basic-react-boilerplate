@@ -1,12 +1,16 @@
 import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
 import './App.scss'
 
 const App = () => {
-    return(
+    return (
         <div className="App">
-            <img src="../assets/images/me_01.png" alt="bla" style={{ width: "250px" }} />
-            <h1>2019 basic react boilerplate.</h1>
-            <p>Personal Boilerplate for mid 2019. It contains Webpack, Babel, Sass, React and some goodies like post-css (autoprefixer), uglify-js and optimize-css! Ready when you are!</p>
+            <Switch>
+                <Route exact path='/' component={HomePage} />
+                <Route exact path='/about' component={AboutPage} />
+            </Switch>
         </div>
     )
 }
