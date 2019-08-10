@@ -111,6 +111,10 @@ Run ```npm run build:prod``` to build for production
    
   Promise based HTTP client for the browser and node.js
 
+- **@svgr/webpack: ^4.3.2**
+
+   Import svg as a Component
+
   This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 95% flawless.
 
 
