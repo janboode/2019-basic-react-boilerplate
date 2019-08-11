@@ -115,6 +115,10 @@ Run ```npm run build:prod``` to build for production
 
    Import svg as a Component
 
+- **uuid: ^3.3.2**
+
+   Simple, fast generation of RFC4122 UUIDS.
+
   This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 95% flawless.
 
 
