@@ -10,15 +10,15 @@ const App = () => {
     const borderColor = '#eae7ff'
     const styles =
         `
-                padding: ${spacing};
-                background-color: darkslateblue;
-                color: white;
-                font-style: normal;
-                font-weight: bold;
-                border: 2px solid ${borderColor};
-                font-size: 1em;
-                border-radius: 3px
-                `
+            padding: ${spacing};
+            background-color: darkslateblue;
+            color: white;
+            font-style: normal;
+            font-weight: bold;
+            border: 2px solid ${borderColor};
+            font-size: 1em;
+            border-radius: 3px
+        `
     console.log(`%c${say}`, styles)
     return (
         <div className="App">

@@ -67,6 +67,7 @@ module.exports = {
             title: 'Basic React Boilerplate',
             template: './src/index.html',
             inject: true,
+            favicon: './src/favicon.ico',
             minify: {
                 removeComments: true,
                 collapseWhitespace: false
