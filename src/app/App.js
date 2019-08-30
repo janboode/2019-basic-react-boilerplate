@@ -1,8 +1,9 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import './App.scss'
+import HomePage from './pages/home-page/home-page.comp'
+import AboutPage from './pages/about-page/about-page.comp'
+
+import style from './App.scss'
 
 const App = () => {
     const say = 'B R Y T E'
@@ -21,7 +22,7 @@ const App = () => {
         `
     console.log(`%c${say}`, styles)
     return (
-        <div className="App">
+        <div className={style.App}>
             <Switch>
                 <Route exact path='/' component={HomePage} />
                 <Route exact path='/about' component={AboutPage} />

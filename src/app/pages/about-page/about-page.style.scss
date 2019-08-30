@@ -1,0 +1,8 @@
+:local(.aboutPage) {
+    composes: page from '../../App.scss';
+    
+    & img {
+        width: 250px;
+        transform: rotate(180deg);
+    }
+}
