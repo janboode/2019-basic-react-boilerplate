@@ -9,7 +9,7 @@ module.exports = {
     output: {
         filename: 'bryte.[chunkhash].js',
         path: path.resolve(__dirname, '../build'),
-        publicPath: '/'
+        publicPath: ''
     },
     resolve: {
         extensions: ['.js', 'ts', '.scss', '.jsx']
@@ -32,26 +32,7 @@ module.exports = {
                     }
                 }
             },
-            {
-                test: [/.css$|.scss$/],
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    {
-                        loader:
-                            'css-loader',
-                        options: {
-                            modules: {
-                                mode: 'local',
-                                localIdentName: '[name]__[local]-[hash:base64:3]',
-                                context: path.resolve(__dirname, 'src'),
-                                hashPrefix: 'my-custom-hash',
-                            }
-                        }
-                    },
-                    'postcss-loader',
-                    'sass-loader'
-                ]
-            },
+
             {
                 test: /\.(png|jpg|gif)$/,
                 use: [
@@ -75,17 +56,13 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Basic React Boilerplate',
+            title: 'Burger Builder',
             template: './src/index.html',
             inject: true,
-            favicon: './src/favicon.ico',
             minify: {
                 removeComments: true,
                 collapseWhitespace: false
             }
-        }),
-        new MiniCssExtractPlugin({
-            filename: 'assets/css/style.[chunkhash].css'
         }),
         new CopyWebpackPlugin([{
             from: './src/assets/images',

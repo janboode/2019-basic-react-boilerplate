@@ -120,6 +120,11 @@ Run ```npm run build:prod``` to build for production
    Simple, fast generation of RFC4122 UUIDS.
 
   This [tutorial](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e) helped a lot and is 95% flawless.
+  Also [this one](https://developerhandbook.com/webpack/how-to-configure-scss-modules-for-webpack/) with configuring CSS-Modules for SCSS.
+
+
+  ## BUGS:
+  There seems to be a problem running a production or dev build with routing and not loading the page inside the App component.
 
 
 
