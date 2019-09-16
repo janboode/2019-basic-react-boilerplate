@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import HomePage from './pages/home-page/home-page.comp'
 import AboutPage from './pages/about-page/about-page.comp'
 
@@ -23,10 +23,18 @@ const App = () => {
     console.log(`%c${say}`, styles)
     return (
         <div className={style.App}>
-            <Switch>
-                <Route exact path='/' component={HomePage} />
-                <Route exact path='/about' component={AboutPage} />
-            </Switch>
+            {/* <Switch> */}
+            <header>
+                <nav>
+                    <ul>
+                        <li><Link to='/' >Home</Link></li>
+                        <li><Link to='/about' >About</Link></li>
+                    </ul>
+                </nav>
+            </header>
+            <Route exact path='/' component={HomePage} />
+            <Route path='/about' component={AboutPage} />
+            {/* </Switch> */}
         </div>
     )
 }

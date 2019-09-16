@@ -56,7 +56,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Burger Builder',
+            title: 'Basic React Boilerplate',
             template: './src/index.html',
             inject: true,
             minify: {
